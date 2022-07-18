@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HappyAnniversary/static/css/main.f1f73786.chunk.css",
+    "main.js": "/HappyAnniversary/static/js/main.c4c25410.chunk.js",
+    "main.js.map": "/HappyAnniversary/static/js/main.c4c25410.chunk.js.map",
+    "runtime-main.js": "/HappyAnniversary/static/js/runtime-main.836ffc1d.js",
+    "runtime-main.js.map": "/HappyAnniversary/static/js/runtime-main.836ffc1d.js.map",
+    "static/js/2.78186614.chunk.js": "/HappyAnniversary/static/js/2.78186614.chunk.js",
+    "static/js/2.78186614.chunk.js.map": "/HappyAnniversary/static/js/2.78186614.chunk.js.map",
+    "index.html": "/HappyAnniversary/index.html",
+    "precache-manifest.692082f4a7f56766a347037b244ed78a.js": "/HappyAnniversary/precache-manifest.692082f4a7f56766a347037b244ed78a.js",
+    "service-worker.js": "/HappyAnniversary/service-worker.js",
+    "static/css/main.f1f73786.chunk.css.map": "/HappyAnniversary/static/css/main.f1f73786.chunk.css.map",
+    "static/js/2.78186614.chunk.js.LICENSE.txt": "/HappyAnniversary/static/js/2.78186614.chunk.js.LICENSE.txt",
+    "static/media/Fredoka.ttf": "/HappyAnniversary/static/media/Fredoka.58cc1170.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.836ffc1d.js",
+    "static/js/2.78186614.chunk.js",
+    "static/css/main.f1f73786.chunk.css",
+    "static/js/main.c4c25410.chunk.js"
+  ]
+}
