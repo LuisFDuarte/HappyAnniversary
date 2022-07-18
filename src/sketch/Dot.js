@@ -14,7 +14,7 @@ export default class Dot {
     this.zeroVector = this.sketch.createVector(0, 0); // don't modify
 
     this.radius = 8;
-    this.maxSpeed = 12;
+    this.maxSpeed = 4;
     this.maxForce = 4;
     this.maxMagnitude = 50;
   }
@@ -23,12 +23,20 @@ export default class Dot {
     this.position.add(this.velocity);
     this.velocity.add(this.acceleration);
     this.acceleration.mult(0);
+    
   }
 
   show() {
-    this.sketch.stroke(255);
-    this.sketch.fill(0);
+    this.sketch.noStroke(0);
+    const color = Math.random()*10;
+    if (color<3)
+      this.sketch.fill("#df98ff");
+    else if (color>=3 && color <6)
+      this.sketch.fill("#c2b4ff");
+    else if (color >6)
+      this.sketch.fill("#fcffd2");
     this.sketch.ellipse(this.position.x, this.position.y, this.radius, this.radius);
+    
   }
 
   applyAllForces() {

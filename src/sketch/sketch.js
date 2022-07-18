@@ -1,5 +1,5 @@
 import Dot from './Dot';
-import fontFile from './AvenirNextLTPro-Demi.otf';
+import fontFile from './Fredoka.ttf'//'./AvenirNextLTPro-Demi.otf';
 
 const defaultFrameRate = 30; // low framerate to avoid too much strain on mobile phones
 
@@ -26,12 +26,12 @@ export default (parent, text) => (sketch) => {
       // ref: https://p5js.org/reference/#/p5.Font/textToPoints
       // I just tweaked these numbers until it "looked right", mainly trial and error :D 
       // The numbers would be different for different text, any suggestions about better way to do this are welcome :) 
-      firstWordPoints = font.textToPoints(`${firstWord} ${secondWord}`, width * 0.04, height * 0.33, width * 0.12)
-      secondWordPoints = font.textToPoints(thirdWord, width * 0.05, height * 0.83, width * 0.3);
+      firstWordPoints = font.textToPoints(`${firstWord} ${secondWord}`, width * 0.09, height * 0.48, width * 0.09)
+      secondWordPoints = font.textToPoints(thirdWord, width * 0.35, height * 0.85, width * 0.09);
     } else {
       // console.log('in mobile view')
 
-      firstWordPoints = font.textToPoints(firstWord, width * 0.01, height * 0.3, width * 0.3);
+      firstWordPoints = font.textToPoints(firstWord, width * 0.0, height * 0.3, width * 0.3);
       secondWordPoints = font.textToPoints(secondWord, width * 0.01, height * 0.5, width * 0.25);
       thirdWordPoints = font.textToPoints(thirdWord, width * 0.01, height * 0.7, width * 0.32);
     }
